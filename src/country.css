@@ -1,18 +1,22 @@
-.box{
+.country{
     border: 2px solid tomato;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
     min-height: 400px;
 }
-.box p{
+.visited{
+    background-color: bisque;
+}
+.country p{
     color: maroon;
     font-weight: bold;
 }
-.box button{
+.country button{
     background-color: cadetblue;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 700;
+    margin-left: 5px;
     color: white;
 }
 .countries{
@@ -20,4 +24,9 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     
+}
+.visited-flag img{
+width:100px;
+height:50px;
+margin-left: 10px;
 }
