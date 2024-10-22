@@ -3,9 +3,21 @@
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    min-height: 400px;
+}
+.box p{
+    color: maroon;
+    font-weight: bold;
+}
+.box button{
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
 }
 .countries{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
+    
 }
